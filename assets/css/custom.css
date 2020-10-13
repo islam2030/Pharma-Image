@@ -1,0 +1,1234 @@
+/* Start Root Color For Website ************************/
+
+:root {
+    --main-bg-color: #134680;
+    --background-gray-light: #F1F1F1;
+    --backgrounf-gray-dark: #414141;
+    --color-white: #ffffff;
+    --color-blue: #2BBAEC;
+    --color-gray-light: #EBEBEB;
+    --color-gray-dark: #414141;
+    --color-dark: #C4C4C4;
+}
+
+
+/* End Root Color For Website ************************/
+
+
+/* Start Gloable Code Css *******************************/
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.close {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.btn:focus,
+button:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 300;
+    color: var(--color-gray-dark);
+}
+
+.no-bg {
+    background: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.form-control {
+    border: 1px solid var(--color-blue);
+}
+
+.btn-send {
+    background: var(--color-blue);
+    color: var(--color-white);
+    padding: 8px 60px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.Pharma_wrapper {
+    position: relative;
+}
+
+.Pharma_Custon_Container {
+    padding: 0 80px;
+}
+
+section {
+    padding: 35px 0;
+}
+
+.Pharma_title {
+    font-size: 33px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.Pharma_title::after {
+    position: absolute;
+    content: "";
+    background: var(--color-blue);
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: 0;
+}
+
+.Pharma_title span {
+    color: var(--color-blue);
+}
+
+
+/* End Gloable Code Css *******************************/
+
+
+/* Start Top Header Css **********************/
+
+.Pharma_Top_Header {
+    background: var(--main-bg-color);
+    height: 50px;
+    color: var(--color-gray-light);
+    border-bottom: 1px solid rgb(235 235 235 / 17%);
+}
+
+.Pharma_Top_Header .Pharma_Text h6 {
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Quick_Links {
+    line-height: 50px;
+    text-align: right;
+}
+
+.Quick_Links ul li {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+
+.Quick_Links ul li:after {
+    position: absolute;
+    content: "";
+    background: rgb(235 235 235 / 70%);
+    width: 1px;
+    height: 46%;
+    left: -3px;
+    top: 13px;
+}
+
+.Quick_Links ul li:first-child:after {
+    width: 0;
+}
+
+.Quick_Links ul li a {
+    color: var(--color-gray-light);
+    font-size: 16px;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+.Quick_Links ul li a:hover {
+    color: var(--color-white);
+}
+
+
+/* End Top Header Css **********************/
+
+
+/* Start Header Css **********************/
+
+.Pharma_Navbar.bg-blue {
+    background: var(--main-bg-color);
+    min-height: 108px;
+}
+
+.Pharma_Navbar .navbar-collapse {
+    margin-right: -15px;
+}
+
+.Pharma_Navbar .navbar-brand {
+    margin-left: -15px;
+}
+
+.Pharma_Navbar .navbar-brand img {
+    width: 328px;
+}
+
+.Pharma_Navbar .navbar-nav .nav-item {
+    position: relative;
+    margin-right: .6rem;
+    margin-left: .6rem;
+}
+
+.Pharma_Navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 0;
+    background: var(--color-blue);
+    height: 2px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.Pharma_Navbar .navbar-nav .nav-item.active::after {
+    width: 100%;
+}
+
+.Pharma_Navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.Pharma_Navbar .navbar-nav .nav-item .nav-link {
+    color: var(--color-gray-light);
+    padding: 0;
+    transition: 0.3s;
+}
+
+.Pharma_Navbar .navbar-nav .nav-item .nav-link:hover {
+    color: var(--color-white);
+}
+
+
+/* End Header Css **********************/
+
+
+/* Strat Slider Header Css **********************/
+
+.Pharma_Slider {
+    position: relative;
+}
+
+.Pharma_Slider .Pharma_Content_slider {
+    background: linear-gradient(to left top, #0289B8, #3D3D3D);
+    height: 600px;
+    position: relative;
+}
+
+.Pharma_Slider .Pharma_Content_slider img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-blend-mode: overlay;
+}
+
+.Pharma_Slider .Pharma_Content_slider .Info_Text {
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    left: 50%;
+    color: var(--color-white);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    text-transform: capitalize;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.Pharma_Slider .Pharma_Content_slider .scroll {
+    position: absolute;
+    top: 80%;
+    z-index: 999;
+    left: 50%;
+    color: var(--color-white);
+    width: 30px;
+    height: 50px;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid var(--color-white);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.Pharma_Slider .Pharma_Content_slider .scroll a {
+    color: var(--color-white);
+    font-size: 18px;
+    position: relative;
+    animation: down 2s linear infinite;
+}
+
+@keyframes down {
+    0% {
+        opacity: 0;
+        top: 0px;
+    }
+    50% {
+        opacity: 0.5;
+        top: 20px;
+    }
+    100% {
+        opacity: 0;
+        top: 20px;
+    }
+}
+
+.Pharma_Slider .owl-theme .owl-nav {
+    position: absolute;
+    bottom: 80px;
+    right: 25px;
+    transform: rotate(90deg);
+}
+
+.Pharma_Slider .owl-theme .owl-nav [class*=owl-] {
+    color: var(--color-blue);
+    font-size: 14px;
+    margin: 0 5px;
+    background: var(--color-white);
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.Pharma_Slider .owl-theme .owl-nav [class*=owl-]:hover {
+    background: var(--main-bg-color);
+    color: var(--color-white);
+}
+
+.Pharma_Slider .owl-theme .owl-nav [class*=owl-] i {
+    font-size: 25px;
+}
+
+
+/* End Slider Header Css **********************/
+
+
+/* Start About Css **********************/
+
+.Pharma_About {
+    background: var(--backgrounf-gray-dark);
+    height: 100%;
+    padding: 20px;
+    color: var(--color-white);
+}
+
+.Pharma_About .Pharma_about_text p {
+    color: var(--color-gray-light);
+    font-size: 15px;
+    display: flex;
+}
+
+.Pharma_About .Pharma_about_text p i {
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.Pharma_About .Pharma_about_text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* End About Css **********************/
+
+
+/* Start Portfolio Css ***********************/
+
+.portfolio .Pharma_portfolio {
+    background: var(--background-gray-light);
+    padding: 35px 0;
+}
+
+.portfolio .Pharma_portfolio .nav {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.portfolio .Pharma_portfolio .nav-pills .nav-link {
+    font-weight: 400;
+    color: var(--color-dark);
+    position: relative;
+    padding: 0 0 5px 0;
+    margin: 0 10px;
+}
+
+.portfolio .Pharma_portfolio .nav-pills .nav-link::after {
+    position: absolute;
+    content: "";
+    background: var(--color-blue);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.portfolio .Pharma_portfolio .nav-pills .nav-link.active::after,
+.portfolio .Pharma_portfolio .nav-pills .nav-link:hover::after {
+    width: 40px;
+    color: var(--color-gray-dark);
+}
+
+.portfolio .Pharma_portfolio .nav-pills .nav-link.active,
+.portfolio .Pharma_portfolio .nav-pills .show>.nav-link {
+    color: var(--color-gray-dark);
+    background: none;
+}
+
+.portfolio .tab-content {
+    margin-top: 35px;
+}
+
+.portfolio .tab-content .boxs {
+    background: var(--color-white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.portfolio .tab-content .boxs img {
+    object-fit: contain;
+    width: 180px;
+}
+
+.portfolio .tab-content .boxs img.last-img {
+    width: 100px !important;
+}
+
+
+/* End Portfolio Css ***********************/
+
+
+/* Start Value Css ***********************/
+
+.value {
+    background: url(../image/our-value.png) no-repeat center center / cover;
+}
+
+.value .Pharma_title {
+    color: var(--color-white);
+}
+
+.value .box-value {
+    background: rgb(255 255 255 / 0.8);
+    min-height: 190px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.value .box-value .icon-value {}
+
+.value .box-value .icon-value .icon {
+    color: var(--color-blue);
+    font-size: 95px;
+}
+
+.value .box-value .text-value {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--color-gray-dark);
+}
+
+
+/* End Value Css ***********************/
+
+
+/* Start Footer Css ***********************/
+
+.footer {
+    background: var(--main-bg-color);
+    min-height: 147px;
+    margin-top: -1px;
+}
+
+.footer .main-nav-footer {
+    justify-content: space-between;
+}
+
+.footer .nav {}
+
+.footer .nav li {
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .nav li img {
+    width: 328px;
+}
+
+.footer .nav li.logo-footer {
+    margin-right: 20px;
+}
+
+.footer .nav li a {
+    color: var(--color-gray-light);
+    font-weight: 300;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.footer .nav li a:hover {
+    color: var(--color-white);
+}
+
+.footer .copyright {
+    color: var(--color-gray-light);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* End Footer Css ***********************/
+
+
+/* Start About us --------------------------*/
+
+.banner {
+    height: 300px;
+}
+
+.banner-image {
+    background: url(../image/Family-Hispanic.png), linear-gradient(45deg, #333, #2BBAEC);
+    background-size: 100%;
+    height: 100%;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-title {
+    margin-top: 6%;
+}
+
+.banner-image .Pharma_title {
+    color: var(--color-white);
+}
+
+.banner .breadcrumb .breadcrumb-item a {
+    color: var(--color-white);
+}
+
+.banner .breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: var(--color-white);
+    content: ">";
+}
+
+.banner .breadcrumb-item.active {
+    color: var(--color-dark);
+}
+
+.vision-mission .block {
+    text-align: center;
+}
+
+.vision-mission .block .block-icon span {
+    font-size: 80px;
+    color: var(--color-blue);
+}
+
+.vision-mission .block .block-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-gray-dark);
+}
+
+.vision-mission .block .block-text {
+    font-size: 22px;
+    font-weight: 200;
+    color: var(--color-gray-dark);
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+
+
+/* Start Media and news --------------------*/
+
+.comming-soon h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dot {
+    color: #4FEBFE;
+}
+
+
+/* Start Careers --------------------*/
+
+.careers .form {
+    margin-top: 35px;
+}
+
+.form .Pharma_title {
+    font-size: 22px;
+}
+
+.file-upload-wrapper {
+    position: relative;
+    width: 100%;
+    height: 38px;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.careers .file-upload-wrapper:after {
+    content: attr(data-text);
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 85px;
+    padding: 0 15px;
+    display: block;
+    width: auto;
+    pointer-events: none;
+    z-index: 20;
+    line-height: 35px;
+    color: var(--color-dark);
+    font-weight: 300;
+}
+
+.careers .file-upload-wrapper:before {
+    content: 'Upload';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 36px;
+    background: var(--color-blue);
+    color: var(--color-white);
+    font-weight: 400;
+    z-index: 25;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0 15px;
+    pointer-events: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.careers .file-upload-wrapper:hover:before {
+    background: var(--color-blue);
+}
+
+.careers .file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* Start Contact us ---------------*/
+
+.contact .contact-info {
+    margin-top: 35px;
+}
+
+.contact-info ul {}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #f8f9fa;
+    line-height: 40px;
+    border-radius: 25px;
+    display: inline-table;
+    font-size: 18px;
+}
+
+
+/* Start News ---------------------------*/
+
+.pharma-news {
+    height: 250px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.pharma-news img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.pharma-news .news-info-content {
+    position: absolute;
+    content: "";
+    background: linear-gradient(rgb(0 0 0 / 0%), rgba(65, 46, 46, 0.70));
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: var(--color-white);
+    padding: 0 15px;
+}
+
+.pharma-news .news-info-content p {
+    position: relative;
+    margin: 15px 0;
+    padding: 0 0 0 10px;
+    color: var(--color-white);
+}
+
+.pharma-news .news-info-content p::after {
+    position: absolute;
+    content: "";
+    background: var(--color-blue);
+    width: 3px;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.pharma-news .news-info-content:hover p::after {
+    height: 100%;
+}
+
+
+/* Start Responsive Css ---------------------*/
+
+@media (max-width: 990px) {
+    .Pharma_title {
+        font-size: 30px;
+    }
+    .navbar-blue .navbar-toggler-icon {
+        background: #fff;
+        height: 1px;
+        position: relative;
+        border-radius: 5px;
+    }
+    .navbar-blue .navbar-toggler-icon:after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        background: white;
+        height: 1px;
+        left: 0;
+        border-radius: 5px;
+    }
+    .navbar-blue .navbar-toggler-icon:before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        width: 100%;
+        background: white;
+        height: 1px;
+        left: 0;
+        border-radius: 5px;
+    }
+    .navbar-collapse {
+        display: block;
+        position: fixed !important;
+        min-width: 300px;
+        top: 0;
+        right: -300px;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 500;
+        padding: 20px 30px;
+        color: var(--color-gray-light);
+        background: rgb(19 70 128 / 93%);
+        /* -webkit-box-shadow: 0 1px 10px 0 rgba(150, 150, 150, 0.2);
+        -o-box-shadow: 0 1px 10px 0 rgba(150, 150, 150, 0.2);
+        -moz-box-shadow: 0 1px 10px 0 rgba(150, 150, 150, 0.2);
+        box-shadow: 0 1px 10px 0 rgba(150, 150, 150, 0.2); */
+        border-left: 1px solid #386293;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+    }
+    .navbar-collapse.show {
+        right: 0;
+    }
+    .navbar-collapse .navbar-nav {
+        margin: 65px 0 0 0;
+    }
+    .close {
+        display: block;
+        font-size: 30px;
+        font-weight: 400;
+        color: var(--main-bg-color);
+        opacity: 0.8;
+        margin: 8px 10px;
+        background: var(--color-white) !important;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        opacity: 1;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    .Pharma_Custon_Container {
+        padding: 0 40px;
+    }
+    .Pharma_Navbar .navbar-brand {
+        margin-left: 15px;
+    }
+    .navbar-toggler {
+        margin-right: 15px
+    }
+    .Pharma_Navbar .navbar-brand img {
+        width: 288px;
+    }
+    .Pharma_Top_Header .Pharma_Text h6 {
+        font-size: 15px;
+    }
+    .Quick_Links ul li a {
+        font-size: 15px;
+    }
+    .Pharma_Navbar .navbar-nav .nav-item {
+        line-height: 30px;
+    }
+    .Pharma_Navbar .navbar-nav .nav-item::after {
+        width: 0;
+    }
+    .Pharma_Navbar .navbar-nav .nav-item.active::after {
+        width: 0;
+    }
+    .Pharma_Navbar .navbar-nav .nav-item:hover::after {
+        width: 0;
+    }
+    .Pharma_Navbar .navbar-nav .nav-item .nav-link {
+        margin-bottom: 8px;
+        font-weight: 200;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        font-size: 25px;
+    }
+    .Pharma_Slider .owl-theme .owl-nav [class*=owl-] {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    /* Start About ---------------------*/
+    .aboutus img {
+        object-fit: cover;
+        height: 100%;
+    }
+    .vision-mission .block .block-text {
+        font-size: 17px;
+    }
+    /* Start Value ---------------------*/
+    .value .box-value {
+        padding: 0 15px;
+    }
+    .value .box-value .icon-value .icon {
+        font-size: 70px;
+    }
+    .value .box-value .text-value {
+        font-size: 16px;
+    }
+    /* Start Footer ---------------------*/
+    .footer .nav li img {
+        width: 288px;
+    }
+    .footer .nav li a {
+        font-size: 14px;
+    }
+    .footer .copyright {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Pharma_Top_Header .Pharma_Text h6 {
+        font-size: 14px;
+    }
+    .Quick_Links ul li a {
+        font-size: 14px;
+    }
+    .Pharma_Navbar .navbar-brand img {
+        width: 260px;
+    }
+    .Pharma_Slider .Pharma_Content_slider {
+        height: 500px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        width: 79%;
+    }
+    /* Start Footer ---------------------*/
+    .d-flex {
+        display: block !important;
+    }
+    .footer .nav li img {
+        width: 260px;
+    }
+    .footer .nav li a {
+        font-size: 12px;
+    }
+    .footer .copyright {
+        font-size: 12px;
+    }
+    .footer .nav li.logo-footer {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer .nav li {
+        display: inline-block
+    }
+    .footer .nav {
+        margin: 0 auto 8px auto;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 610px) {
+    .hidden {
+        display: none !important;
+    }
+    .Quick_Links ul li:nth-of-type(3):after {
+        width: 0;
+    }
+    .Pharma_Top_Header {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .Pharma_Navbar .navbar-brand img {
+        width: 215px;
+    }
+    .Pharma_Navbar.bg-blue {
+        min-height: 80px;
+    }
+    .logo-mobile {
+        display: block;
+    }
+    .Pharma_Slider .owl-theme .owl-nav {
+        right: 0;
+    }
+    .Pharma_Slider .owl-theme .owl-nav [class*=owl-] {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        font-size: 22px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        width: 85%;
+    }
+    .Pharma_title {
+        font-size: 25px;
+    }
+    .Pharma_About .Pharma_about_text p {
+        font-size: 14px;
+    }
+    .portfolio .Pharma_portfolio .nav-pills .nav-link {
+        font-size: 14px;
+    }
+    .value .box-value .text-value {
+        font-size: 14px;
+    }
+    .banner {
+        height: 230px;
+    }
+    .banner-image {
+        background: url(../image/Family-Hispanic.png), linear-gradient(45deg, #232323, #2BBAEC);
+        background-size: 100%;
+    }
+    .banner .banner-title {
+        margin-top: 25%;
+    }
+    .vision-mission .block {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .vision-mission .block .block-text {
+        font-size: 15px;
+    }
+    .offset-2 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-toggler {
+        margin-right: 0;
+    }
+    .Pharma_Navbar .navbar-brand {
+        margin-left: 0;
+    }
+    .Pharma_Custon_Container {
+        padding: 0 22px;
+    }
+    .hidden {
+        display: none !important;
+    }
+    .Quick_Links ul li:nth-of-type(3):after {
+        width: 0;
+    }
+    .Pharma_Top_Header {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .Pharma_Navbar .navbar-brand img {
+        width: 200px;
+    }
+    .Pharma_Navbar.bg-blue {
+        min-height: 80px;
+    }
+    .logo-mobile {
+        display: block;
+    }
+    .Pharma_Slider .owl-theme .owl-nav {
+        right: 0;
+    }
+    .Pharma_Slider .owl-theme .owl-nav [class*=owl-] {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        font-size: 22px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        width: 85%;
+    }
+    .Pharma_title {
+        font-size: 25px;
+    }
+    .Pharma_About .Pharma_about_text p {
+        font-size: 14px;
+    }
+    .portfolio .Pharma_portfolio .nav-pills .nav-link {
+        font-size: 13px;
+    }
+    .value .box-value .text-value {
+        font-size: 14px;
+    }
+    .banner {
+        height: 230px;
+    }
+    .banner-image {
+        background: url(../image/Family-Hispanic.png), linear-gradient(45deg, #232323, #2BBAEC);
+        background-size: 100%;
+    }
+    .banner .banner-title {
+        margin-top: 25%;
+    }
+    .vision-mission .block {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .vision-mission .block .block-text {
+        font-size: 15px;
+    }
+    .offset-2 {
+        margin-left: 0;
+    }
+    .Pharma_Top_Header .Pharma_Text h6 {
+        font-size: 12px;
+    }
+    .footer .nav li img {
+        width: 200px;
+    }
+    .contact .contact-info {
+        margin-top: 20px;
+    }
+    .contact-info ul li {
+        margin-bottom: 10px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-toggler {
+        margin-right: 0;
+    }
+    .Pharma_Navbar .navbar-brand {
+        margin-left: 0;
+    }
+    .Pharma_Custon_Container {
+        padding: 0 22px;
+    }
+    .small-hidden {
+        display: none !important;
+    }
+    .Quick_Links ul li a {
+        font-size: 13px;
+    }
+    .Quick_Links ul li:nth-of-type(3):after {
+        width: 0;
+    }
+    .Pharma_Top_Header {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .Pharma_Navbar .navbar-brand img {
+        width: 180px;
+    }
+    .Pharma_Navbar.bg-blue {
+        min-height: 80px;
+    }
+    .logo-mobile {
+        display: block;
+    }
+    .Pharma_Slider .owl-theme .owl-nav {
+        right: 0;
+    }
+    .Pharma_Slider .owl-theme .owl-nav [class*=owl-] {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        font-size: 22px;
+    }
+    .Pharma_Slider .Pharma_Content_slider .Info_Text {
+        width: 85%;
+    }
+    .Pharma_title {
+        font-size: 25px;
+    }
+    .Pharma_About .Pharma_about_text p {
+        font-size: 14px;
+    }
+    .portfolio .Pharma_portfolio .nav-pills .nav-link {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .value .box-value .text-value {
+        font-size: 14px;
+    }
+    .banner {
+        height: 230px;
+    }
+    .banner-image {
+        background: url(../image/Family-Hispanic.png), linear-gradient(45deg, #232323, #2BBAEC);
+        background-size: 100%;
+    }
+    .banner .banner-title {
+        margin-top: 25%;
+    }
+    .vision-mission .block {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .vision-mission .block .block-text {
+        font-size: 15px;
+    }
+    .offset-2 {
+        margin-left: 0;
+    }
+    .Pharma_Top_Header .Pharma_Text h6 {
+        font-size: 13px;
+    }
+    .footer .nav li img {
+        width: 180px;
+    }
+    .contact .contact-info {
+        margin-top: 20px;
+    }
+    .contact-info ul li {
+        margin-bottom: 10px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+}
