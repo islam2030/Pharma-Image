@@ -780,6 +780,12 @@ section {
 
 
 /* Start Responsive Css ---------------------*/
+@media (min-width: 1367px) {
+    .Pharma_About .Pharma_about_text p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
 
 @media (max-width: 990px) {
     .Pharma_title {
